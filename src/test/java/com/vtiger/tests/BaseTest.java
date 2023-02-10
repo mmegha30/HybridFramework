@@ -33,7 +33,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	public static WebDriver driver ;
 	public static Properties prop;
-	public static Map<String,Map<String,String>> dt;
+	public Map<String,Map<String,String>> dt;
 	public static ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
 	public static ExtentTest logger;
